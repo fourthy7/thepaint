@@ -1,0 +1,4 @@
+#Fri Dec 09 14:10:50 ICT 2022
+base.0=D\:\\backup C\\MOBILE\\ramene\\ramene\\ramene\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
