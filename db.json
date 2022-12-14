@@ -1,58 +1,34 @@
 {
-  "users": [
+  "paintings": [
     {
       "id": 1,
-      "email": "caesar",
-      "password": "123"
+      "cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/300px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+      "name": "Mona Lisa",
+      "year": 1503,
+      "artist": "Leonardo da Vinci",
+      "description": "Monalisa adalah lukisan minyak di atas kayu poplar yang dibuat oleh Leonardo da Vinci pada abad ke-16. Lukisan ini sering dianggap sebagai salah satu lukisan paling terkenal di dunia dan hanya sedikit karya seni lain yang menjadi pusat perhatian, studi, mitologi, dan parodi. Lukisan ini dimiliki oleh pemerintah Prancis dan dipamerkan di Musée du Louvre di Paris."
     },
     {
-      "email": "sesar",
-      "password": "123",
-      "id": 2
-    },
-    {
-      "email": "aku",
-      "password": "123",
-      "id": 3
+      "id": 2,
+      "cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/David_von_Michelangelo.jpg/200px-David_von_Michelangelo.jpg",
+      "name": "David",
+      "year": 1504,
+      "artist": "Michelangelo",
+      "description": "David adalah sebuah patung adi karya pada abad Renaisans yang dibuat antara tahun 1501 sampai tahun 1504 oleh seniman Italia, Michelangelo. Patung ini terbuat dari marmer dan memiliki tinggi 5.17 meter (17 kaki).[1] Patung ini merepresentasikan Daud, subjek yang disenangi dalam seni Firenze.[2] Awalnya patung ini diminta sebagai salah satu dari serangkaian patung nabi di sepanjang garis atap dari ujung timur Katedral Firenze, tetapi patung ini justru ditempatkan di alun-alun di luar Palazzo della Signorina, kursi pemerintahan sipil di Firenze, dimana patung ini akhirnya diresmikan pada 8 September 1504. Patung ini dipindahkan ke Accademia di Belle Arti di Firenze pada tahun 1873, sedangkan di lokasi asli digantikan oleh sebuah patung replika."
     }
   ],
-
-  "pictures": [
-          {
-      "id":1,
-      "name": "Michael Angelo's Painting",
-      "img": "https://images.unsplash.com/flagged/photo-1572392640988-ba48d1a74457?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
-      "years":1564
+  "users": [
+    {
+      "username": "tes",
+      "email": "tes@gmail.com",
+      "password": "123",
+      "id": 1
     },
     {
-      "name": "Saint Cecilia of Rome",
-      "img": "https://images.unsplash.com/photo-1578320340743-0314d3d66851?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=488&q=80",
-      "years":230,
-      "id":2
-    },
-    {
-      "name": "A Girl with Flowers on the Grass",
-      "img": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=390&q=80",
-      "years":1878,
-      "id":3
-    },
-    {
-      "name": "The River Severn at Shrewsbury",
-      "img": "https://images.unsplash.com/photo-1578926375605-eaf7559b1458?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1063&q=80",
-      "years":1770,
-      "id":4
-    },
-    {
-      "name": "Landscape with Cattle",
-      "img": "https://images.unsplash.com/photo-1586537049236-b212dc756931?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1019&q=80",
-      "years":1804,
-      "id":5
-    },
-    {
-      "name": "Interior of a Cathedral",
-      "img": "https://images.unsplash.com/photo-1578301978162-7aae4d755744?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=377&q=80",
-      "years":1852,
-      "id":6
+      "username": "tz",
+      "password": "tz",
+      "email": "tztz@gmail.com",
+      "id": 2
     }
   ]
 }
