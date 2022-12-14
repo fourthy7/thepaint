@@ -31,7 +31,7 @@ class _DetailPaintingState extends State<DetailPainting> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.redAccent,
+        backgroundColor: Colors.blueAccent,
         actions: [
           Padding(
               padding: const EdgeInsets.only(right: 20.0),
@@ -88,10 +88,10 @@ class _DetailPaintingState extends State<DetailPainting> {
                       child: Stack(
                         children: <Widget>[
                           Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
+                            crossAxisAlignment: CrossAxisAlignment.center,
                             children: <Widget>[
                               Container(
-                                padding: const EdgeInsets.only(bottom: 8),
+                                // padding: const EdgeInsets.only(right: 240),
                                 child: Text("${widget.painting.name}",
                                     style:
                                         Theme.of(context).textTheme.headline6),
@@ -118,7 +118,7 @@ class _DetailPaintingState extends State<DetailPainting> {
                       height: 470,
                       child: Image.network(
                         widget.painting.cover,
-                        fit: BoxFit.cover,
+                        fit: BoxFit.fill,
                       ),
                     ),
                     Container(

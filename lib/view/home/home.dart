@@ -73,7 +73,7 @@ class _HomeState extends State<Home> {
                               Text(
                                 "${snapshot.data![index].name}",
                                 style: TextStyle(
-                                  color: lightGrey,
+                                  color: black,
                                   fontFamily: 'Poppins Light',
                                 ),
                               ),
@@ -138,7 +138,7 @@ class _HomeState extends State<Home> {
                               Text(
                                 "${snapshot.data![index].name}",
                                 style: TextStyle(
-                                  color: lightGrey,
+                                  color: black,
                                   fontFamily: 'Poppins Light',
                                 ),
                               ),
@@ -151,7 +151,7 @@ class _HomeState extends State<Home> {
     );
 
     Widget tab2 = FutureBuilder<List<PaintingsModel>>(
-      future: PaintingService().fetchDataPaintingArtist("Mobile"),
+      future: PaintingService().fetchDataPaintingArtist("Michelangelo"),
       builder: (context, snapshot) {
         if (snapshot.connectionState == ConnectionState.waiting) {
           return const Center(child: CircularProgressIndicator());
@@ -203,7 +203,7 @@ class _HomeState extends State<Home> {
                               Text(
                                 "${snapshot.data![index].name}",
                                 style: TextStyle(
-                                  color: lightGrey,
+                                  color: black,
                                   fontFamily: 'Poppins Light',
                                 ),
                               ),

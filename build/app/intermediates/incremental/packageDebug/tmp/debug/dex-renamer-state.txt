@@ -1,4 +1,4 @@
-#Sat Dec 10 22:15:48 ICT 2022
+#Wed Dec 14 20:51:22 ICT 2022
 base.0=D\:\\laragon\\www\\Mobile\\Jokian\\Alfat\\thepaint\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

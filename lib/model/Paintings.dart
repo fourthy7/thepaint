@@ -1,6 +1,6 @@
 class PaintingsModel {
-  final String cover, name, year, artist, description;
-  int id;
+  final String cover, name, artist, description;
+  int id, year;
 
   PaintingsModel({
     required this.cover,

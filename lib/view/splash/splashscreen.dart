@@ -37,17 +37,17 @@ class _SplashScreenState extends State<SplashScreen> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
                   Image.asset(
-                    "assets/images/Splash/game.png",
+                    "assets/images/Splash/paint.png",
                     fit: BoxFit.cover,
                   ),
                   const Padding(padding: EdgeInsets.only(bottom: 20)),
                   const Text(
-                    'GAMES',
+                    'THE PAINT',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 24,
                       fontWeight: FontWeight.bold,
-                      color: Colors.redAccent,
+                      color: Colors.blueAccent,
                     ),
                   ),
                   const Padding(padding: EdgeInsets.only(bottom: 20)),

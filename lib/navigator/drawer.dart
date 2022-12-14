@@ -51,15 +51,15 @@ class _DrawerWidgetState extends State<DrawerWidget> {
 Widget _drawerHeader() {
   return const UserAccountsDrawerHeader(
     decoration: BoxDecoration(
-      color: Colors.redAccent,
+      color: Colors.blueAccent,
     ),
     currentAccountPicture: ClipOval(
       child: Image(
           image: AssetImage("assets/images/Profile/eisa.jpg"),
           fit: BoxFit.cover),
     ),
-    accountName: Text('Alfat Tauhidillah'),
-    accountEmail: Text('alfat@gmail.com'),
+    accountName: Text('CAESAR NAFIANSYAH PUTRA'),
+    accountEmail: Text('caesar@gmail.com'),
   );
 }
 

@@ -27,7 +27,7 @@ class _ProfileState extends State<Profile> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.redAccent,
+          backgroundColor: Colors.blueAccent,
           leading: IconButton(
             icon: const Icon(
               Icons.arrow_back,
@@ -191,7 +191,7 @@ class _ProfileState extends State<Profile> {
                                                 )));
                                   },
                                   style: ElevatedButton.styleFrom(
-                                      backgroundColor: Colors.redAccent,
+                                      backgroundColor: Colors.blueAccent,
                                       minimumSize: const Size.fromHeight(55),
                                       shape: RoundedRectangleBorder(
                                         borderRadius: BorderRadius.circular(20),
@@ -217,7 +217,7 @@ class _ProfileState extends State<Profile> {
                                             builder: (context) => Login()));
                                   },
                                   style: ElevatedButton.styleFrom(
-                                      backgroundColor: Colors.redAccent,
+                                      backgroundColor: Colors.blueAccent,
                                       minimumSize: const Size.fromHeight(55),
                                       shape: RoundedRectangleBorder(
                                         borderRadius: BorderRadius.circular(20),

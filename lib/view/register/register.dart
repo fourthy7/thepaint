@@ -159,7 +159,7 @@ class _RegisterState extends State<Register> {
                     fontSize: 18,
                   )),
               style: ElevatedButton.styleFrom(
-                  primary: Colors.redAccent,
+                  primary: Colors.blueAccent,
                   minimumSize: const Size.fromHeight(55),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(20),
@@ -186,7 +186,7 @@ class _RegisterState extends State<Register> {
                       style: TextStyle(
                         fontFamily: 'Poppins Light',
                         fontSize: 16,
-                        color: Colors.redAccent,
+                        color: Colors.blueAccent,
                       )),
                 ),
               ],

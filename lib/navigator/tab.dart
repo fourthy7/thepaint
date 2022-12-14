@@ -26,11 +26,11 @@ class TabsController extends StatelessWidget {
       child: Scaffold(
         key: _scaffoldKey,
         appBar: AppBar(
-          backgroundColor: Colors.redAccent,
+          backgroundColor: Colors.blueAccent,
           elevation: 0,
           centerTitle: true,
           title: const Text(
-            'PAINTINGS',
+            'THE PAINT',
             style: TextStyle(
               color: Color.fromARGB(255, 255, 255, 255),
               fontFamily: 'Poppins Bold',
@@ -38,16 +38,17 @@ class TabsController extends StatelessWidget {
             ),
           ),
           bottom: const TabBar(
+            isScrollable: true,
             indicatorColor: Colors.white,
             tabs: [
               Tab(
                 text: 'Semua',
               ),
               Tab(
-                text: 'PC',
+                text: 'Leonardo da Vinci',
               ),
               Tab(
-                text: 'Mobile',
+                text: 'Michelangelo',
               )
             ],
           ),

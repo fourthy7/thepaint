@@ -26,10 +26,10 @@ class _UpdateState extends State<Update> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.redAccent,
+        backgroundColor: Colors.blueAccent,
         elevation: 0,
         title: const Text(
-          'POST',
+          'UPDATE',
           style: TextStyle(
             color: Color.fromARGB(255, 255, 255, 255),
             fontFamily: 'Poppins Bold',
@@ -164,14 +164,17 @@ class _UpdateState extends State<Update> {
 
     var baseUrlApi = PaintingService().baseUrlApi; //Kos
 
+    var years = int.parse(year.text);
+
     Map<String, dynamic> uploadDataData = {
       'cover': cover.text,
       'name': name.text,
-      'year': year.text,
+      'year': years,
       'artist': artist.text,
       'description': description.text,
     };
-    var responseApi = await dio.patch('$baseUrlApi/games/${widget.panting_id}',
+    var responseApi = await dio.patch(
+        '$baseUrlApi/paintings/${widget.panting_id}',
         data: uploadDataData);
     debugPrint(responseApi.data.toString());
 
