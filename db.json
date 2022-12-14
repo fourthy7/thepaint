@@ -1,5 +1,5 @@
 {
-  "User": [
+  "users": [
     {
       "id": 1,
       "email": "caesar",
@@ -17,10 +17,8 @@
     }
   ],
 
-  "Gambar": 
-    {
-      "data":[
-        {
+  "pictures": [
+          {
       "id":1,
       "name": "Michael Angelo's Painting",
       "img": "https://images.unsplash.com/flagged/photo-1572392640988-ba48d1a74457?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
@@ -57,5 +55,4 @@
       "id":6
     }
   ]
-}
 }

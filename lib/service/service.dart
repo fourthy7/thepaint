@@ -24,7 +24,7 @@ class Service {
 
     /* 4. variable dio dapat diakses berbagai method salah
   satunya get untuk mengambil data dari http request */
-    var response = await dio.get('http://localhost:3000/Gambar');
+    var response = await dio.get('http://192.168.0.123:3000/Gambar');
     print('status code : ${response.statusCode}');
     // var dataResponse = response.data;
     List<Data> paints =

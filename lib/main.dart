@@ -18,26 +18,6 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  // ThemeData themeData = ThemeData.light();
-
-  // void setTheme(bool isDarkmode) {
-  //   setState(() {
-  //     themeData = (isDarkmode) ? ThemeData.dark() : ThemeData.light();
-  //     SharedPref.pref?.setBool('isDarkMode', isDarkmode);
-  //   });
-  // }
-
-  // /* hanya dijalankan sekali ketika halaman / class MyApp pertama kali di jalankan */
-  // @override
-  // void initState() {
-  //   print( SharedPref.pref?.getBool('isDarkMode'));
-  //   /* default / tema awal dibuat tidak gelap (isDarkmode = false) */
-  //   bool isDarkmode = SharedPref.pref?.getBool('isDarkMode') ?? false;
-  //   setTheme(isDarkmode);
-
-  //   super.initState();
-  // }
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
